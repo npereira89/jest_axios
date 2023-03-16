@@ -7,6 +7,8 @@ describe ("Get information instagram account", () =>{
        // let res = await instance.get("https://www.instagram.com/api/v1/users/web_profile_info/?username=sophiavictoria204");
 
         let res = await instance.get("https://www.instagram.com/api/v1/users/web_profile_info/?username=martitwerkreal");
+
+        console.log("teste");
     
         expect(res.status).toEqual(200);
         console.log(JSON.stringify(res.data));
