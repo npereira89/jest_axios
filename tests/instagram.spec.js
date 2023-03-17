@@ -10,6 +10,5 @@ describe ("Get information instagram account", () =>{
     
         expect(res.status).toEqual(200);
         console.log(JSON.stringify(res.data));
-        console.log("teste!!");
     })
 })
